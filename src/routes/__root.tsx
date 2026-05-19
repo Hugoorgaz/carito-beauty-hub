@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Carito Beauty Studio" },
+      { name: "description", content: "Descubre nuestros servicios de estética y reserva tu cita online de forma rápida y sencilla." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Carito Beauty Studio" },
+      { property: "og:description", content: "Descubre nuestros servicios de estética y reserva tu cita online de forma rápida y sencilla." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Carito Beauty Studio" },
+      { name: "twitter:description", content: "Descubre nuestros servicios de estética y reserva tu cita online de forma rápida y sencilla." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/140e4adf-c173-4ebd-8c95-17ff27e0301e/id-preview-2cd47c88--bb652d48-9435-46c0-bce3-465ccd6a4a2e.lovable.app-1779206786729.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/140e4adf-c173-4ebd-8c95-17ff27e0301e/id-preview-2cd47c88--bb652d48-9435-46c0-bce3-465ccd6a4a2e.lovable.app-1779206786729.png" },
     ],
     links: [
       {
